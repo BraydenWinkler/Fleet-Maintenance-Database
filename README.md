@@ -1,50 +1,114 @@
 # Fleet Maintenance Database
 
-## Overview
+## Project Overview
 
-This project demonstrates the design and implementation of a relational MySQL database developed to manage fleet maintenance records. The database was created as part of my Information Technology coursework and emphasizes database design, SQL development, and data management principles.
+This project demonstrates the design and implementation of a relational MySQL database used to analyze fleet maintenance records. The objective was to identify maintenance trends, regional failure patterns, and frequently replaced vehicle parts using SQL.
+
+The project was completed as part of my Information Technology coursework and showcases database design, SQL development, data analysis, and technical documentation.
+
+---
+
+## Business Problem
+
+Fleet management companies generate thousands of maintenance records each year. Without proper analysis, identifying recurring failures and preventative maintenance opportunities can be difficult.
+
+This project demonstrates how SQL can transform maintenance records into actionable business intelligence that supports operational decision-making.
+
+---
 
 ## Objectives
 
-- Design a relational database for fleet maintenance records
-- Create and manage SQL tables
-- Perform CRUD operations
-- Analyze maintenance data using SQL queries
-- Demonstrate database normalization and data integrity
+- Design a relational MySQL database
+- Import maintenance data into SQL
+- Analyze maintenance trends
+- Identify regional maintenance differences
+- Determine common replacement reasons
+- Produce recommendations for fleet managers
+
+---
 
 ## Technologies Used
 
 - MySQL
 - SQL
-- Relational Database Design
+- Relational Databases
+- Database Design
+- Data Analysis
+
+---
 
 ## Skills Demonstrated
 
-- Database Design
 - SQL Queries
 - CRUD Operations
-- Data Normalization
-- Primary Keys
-- Data Integrity
+- GROUP BY
+- ORDER BY
+- COUNT()
+- Data Import
+- Database Design
+- Database Normalization
+- Business Intelligence
 - Technical Documentation
 
-## Database Features
+---
 
-This project supports:
+## SQL Concepts Used
 
-- Fleet maintenance tracking
-- Maintenance record organization
-- Replacement tracking
-- Regional reporting
-- Data analysis using SQL queries
+- CREATE TABLE
+- LOAD DATA INFILE
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- COUNT
+- Filtering
+- Aggregation
 
-## Learning Outcomes
+---
 
-Through this project, I strengthened my understanding of relational databases, SQL syntax, database structure, and how organized data can support business decision-making.
+## Business Analysis
+
+The maintenance records were analyzed to identify:
+
+- Frequently replaced vehicle parts
+- Regional maintenance trends
+- Corrosion-related failures
+- Mechanical failures
+- Preventative maintenance opportunities
+
+The analysis was translated into recommendations that could help improve maintenance scheduling and reduce vehicle downtime.
+
+---
+
+## Challenges Encountered
+
+During development, several SQL queries referenced incorrect column names.
+
+To resolve this issue, I inspected the database schema using:
+
+```sql
+SHOW COLUMNS FROM PartsMaintenance;
+```
+
+After identifying the correct column names, the SQL queries were updated accordingly.
+
+This experience strengthened my understanding of schema validation and SQL troubleshooting.
+
+---
 
 ## Future Improvements
 
-- Add an ER diagram
-- Add sample query screenshots
-- Build a Python reporting script
-- Create a dashboard for maintenance trends
+- Add an Entity Relationship Diagram (ERD)
+- Expand analytical SQL reports
+- Create dashboards using Power BI or Tableau
+- Automate reporting using Python
+
+---
+
+## Author
+
+Brayden Winkler
+
+Bachelor of Science in Information Technology
+
+Southern New Hampshire University
